@@ -39,5 +39,6 @@
     manyFriend('sabbir', 'sumaiya', 'sourav', 'shibli')
 
     // greetFriends('abul', 'kabul', 'babul', 'jabul')
+    "i am sabbir"
 
 }
