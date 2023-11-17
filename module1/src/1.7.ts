@@ -26,11 +26,18 @@
 
     //learn rest operator
 
-    const greetFriends = (...friend: string[]) => {
-        friend.forEach((friend: string) => console.log(`hi:string${friend}`)
-        )
-    }
+    // const greetFriends = (...friend: string[]) => {
+    //     friend.forEach((friend: string) => console.log(`hi:string${friend}`)
+    //     )
+    // }
 
-    greetFriends('abul', 'kabul', 'babul', 'jabul')
+    const manyFriend = (...friend: string[]) => {
+        friend.forEach((friend: string) => console.log(`hi${friend}`)
+
+        );
+    }
+    manyFriend('sabbir', 'sumaiya', 'sourav', 'shibli')
+
+    // greetFriends('abul', 'kabul', 'babul', 'jabul')
 
 }
